@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $("#navbar").load("resources/nav.html");
+    $("#navbar").load("resources/nav.txt");
 });
