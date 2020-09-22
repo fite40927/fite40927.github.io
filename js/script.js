@@ -1,7 +1,3 @@
 $(document).ready(function() {
-    load("navbar", "nav.html");
+    $("#navbar").load("resources/nav.html");
 });
-
-function load(id, filename){
-    $("#" + id).html('<object type="text/html" data="' + filename + '" ></object>');
-};
